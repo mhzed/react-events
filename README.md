@@ -18,7 +18,7 @@ Coffee-script Example:
       mixins : [require "react-events"]
     
       render: ()->
-        div
+        div null,
           div { onClick : @h('button.new') }
           div { onClick : @h('button.open') }
           div { onClick : @h('cb.x.y') }

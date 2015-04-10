@@ -8,7 +8,7 @@ any single token.
 Example:
 
   render : ()->
-    React.DOM.div
+    React.DOM.div null,
       React.DOM.div { onClick : @h('button.new') }
       React.DOM.div { onClick : @h('button.open') }
       React.DOM.div { onClick : @h('cb.x.y') }
