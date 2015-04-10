@@ -1,0 +1,12 @@
+{
+  "name": "react-events",
+  "version": "1.0.0",
+  "description": "react events helper mixin",
+  "main": "react-events.js",
+  "scripts": {
+    "test": "node react-events-test.js"
+  },
+  "repository": "https://github.com/mhzed/react-events.git",
+  "author": "mhzedd@gmail.com",
+  "license": "ISC"
+}
